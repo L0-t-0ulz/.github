@@ -19,6 +19,7 @@ pattern. We work at the seam of **fashion**, **real-time graphics**, and **physi
 ![Status](https://img.shields.io/badge/status-active_development-00D18F?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-proprietary-FF2D55?style=for-the-badge)
 
+[![Website](https://img.shields.io/badge/🌐_Visit_website-38E6FF?style=for-the-badge&labelColor=0b0e16)](https://lostsoulz.vercel.app)
 [![Contact](https://img.shields.io/badge/📫_Get_in_touch-38E6FF?style=for-the-badge&labelColor=0b0e16)](mailto:khanzayan_123@hotmail.com)
 
 </div>
