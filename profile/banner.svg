@@ -1,0 +1,87 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="L0-t-0ulz — two glowing AI eyes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b0e16"/>
+      <stop offset="1" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f2feff"/>
+      <stop offset="0.20" stop-color="#4decff"/>
+      <stop offset="0.52" stop-color="#0b93da"/>
+      <stop offset="0.85" stop-color="#062a45"/>
+      <stop offset="1" stop-color="#062a45" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38e6ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#38e6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haze" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff5bd0" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#ff5bd0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0 H0 V44" fill="none" stroke="#0f2c40" stroke-width="1"/>
+    </pattern>
+    <clipPath id="eyeL"><path d="M348 155 C 393 99, 487 99, 532 155 C 487 211, 393 211, 348 155 Z"/></clipPath>
+    <clipPath id="eyeR"><path d="M668 155 C 713 99, 807 99, 852 155 C 807 211, 713 211, 668 155 Z"/></clipPath>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)" opacity="0.45"/>
+  <ellipse cx="600" cy="168" rx="560" ry="150" fill="url(#haze)"/>
+
+  <!-- corner HUD brackets -->
+  <g stroke="#2b6f92" stroke-width="2" opacity="0.7" fill="none">
+    <path d="M28 28 h46 M28 28 v46"/>
+    <path d="M1172 28 h-46 M1172 28 v46"/>
+    <path d="M28 332 h46 M28 332 v-46"/>
+    <path d="M1172 332 h-46 M1172 332 v-46"/>
+  </g>
+
+  <!-- ===== LEFT EYE (centre 440,155) ===== -->
+  <circle cx="440" cy="155" r="118" fill="url(#glow)"/>
+  <path d="M348 155 C 393 99, 487 99, 532 155 C 487 211, 393 211, 348 155 Z" fill="#02080f" stroke="#1f6486" stroke-width="2"/>
+  <g clip-path="url(#eyeL)">
+    <circle cx="440" cy="155" r="56" fill="url(#iris)"/>
+    <circle cx="440" cy="155" r="45" fill="none" stroke="#c9f6ff" stroke-width="1.2" opacity="0.5"/>
+    <circle cx="440" cy="155" r="31" fill="none" stroke="#c9f6ff" stroke-width="1" opacity="0.35"/>
+    <line x1="384" y1="155" x2="496" y2="155" stroke="#eafcff" stroke-width="1" opacity="0.28"/>
+  </g>
+  <circle cx="440" cy="155" r="13" fill="#01121d"/>
+  <circle cx="440" cy="155" r="5" fill="#f2feff"/>
+  <g stroke="#5cefff" stroke-width="2" opacity="0.8" fill="none">
+    <path d="M348 155 C 393 105, 487 105, 532 155"/>
+  </g>
+  <g stroke="#66e9ff" stroke-width="2" opacity="0.65">
+    <line x1="440" y1="86" x2="440" y2="96"/>
+    <line x1="440" y1="214" x2="440" y2="224"/>
+    <line x1="360" y1="155" x2="370" y2="155"/>
+    <line x1="510" y1="155" x2="520" y2="155"/>
+  </g>
+
+  <!-- ===== RIGHT EYE (centre 760,155) ===== -->
+  <circle cx="760" cy="155" r="118" fill="url(#glow)"/>
+  <path d="M668 155 C 713 99, 807 99, 852 155 C 807 211, 713 211, 668 155 Z" fill="#02080f" stroke="#1f6486" stroke-width="2"/>
+  <g clip-path="url(#eyeR)">
+    <circle cx="760" cy="155" r="56" fill="url(#iris)"/>
+    <circle cx="760" cy="155" r="45" fill="none" stroke="#c9f6ff" stroke-width="1.2" opacity="0.5"/>
+    <circle cx="760" cy="155" r="31" fill="none" stroke="#c9f6ff" stroke-width="1" opacity="0.35"/>
+    <line x1="704" y1="155" x2="816" y2="155" stroke="#eafcff" stroke-width="1" opacity="0.28"/>
+  </g>
+  <circle cx="760" cy="155" r="13" fill="#01121d"/>
+  <circle cx="760" cy="155" r="5" fill="#f2feff"/>
+  <g stroke="#5cefff" stroke-width="2" opacity="0.8" fill="none">
+    <path d="M668 155 C 713 105, 807 105, 852 155"/>
+  </g>
+  <g stroke="#66e9ff" stroke-width="2" opacity="0.65">
+    <line x1="760" y1="86" x2="760" y2="96"/>
+    <line x1="760" y1="214" x2="760" y2="224"/>
+    <line x1="680" y1="155" x2="690" y2="155"/>
+    <line x1="830" y1="155" x2="840" y2="155"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="600" y="296" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="36" font-weight="700" letter-spacing="12" fill="#cdf3ff">L0-t-0ulz</text>
+  <text x="600" y="324" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="6" fill="#5a90ab">F O R G I N G · F A S H I O N · I N · 3 D</text>
+</svg>
